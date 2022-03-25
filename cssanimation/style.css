@@ -1,0 +1,43 @@
+ body{
+   
+    overflow: hidden;
+    margin: 0;
+background-image: 
+url("image/ER00030.jpg");
+background-repeat: no-repeat;
+
+  }
+  .bike{
+     margin-top:-90px; 
+     margin-left: 830px;
+     animation:riding 15s linear 1s infinite normal both;
+  }
+  .cloud{
+     
+      margin-left: 705px;
+      
+      animation:cloudy 80s ease-out 1s infinite normal both;
+  }
+
+.plant{
+    margin-top: 300px;
+    margin-left: 40px;
+    animation:growth 10s ease-out 1s infinite normal both;
+
+}
+
+  /* keyframessssss */
+  @keyframes riding{
+      from{transform: translateX(0px);}
+      to{transform: translateX(-1200px);}
+  }
+  @keyframes cloudy{
+      from{transform: translateX(0px);}
+      to{transform: translateX(-1000px);
+      }
+  }
+  @keyframes growth{
+      from{width: 30px;}
+      to{width: 50px;}
+  }
+  
